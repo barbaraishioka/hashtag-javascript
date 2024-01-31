@@ -24,6 +24,15 @@
           /></a>
         </td>
       </tr>
+      <tr>
+        <td>02</td>
+        <td><a href="./apple-watch-shop/">Apple Watch Shop</a></td>
+        <td align="center">
+          <a href="https://barbaraishioka.github.io/hashtag-javascript/apple-watch-shop"
+            ><img width="400px" src="./apple-watch-shop/img/preview.png"
+          /></a>
+        </td>
+      </tr>
     </tbody>
 
   </table>

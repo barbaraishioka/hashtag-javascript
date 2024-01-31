@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Watch Shop</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <img src="./img/svg/apple-icon.svg" alt="Apple Icon" />
+        </li>
+        <li>Loja</li>
+        <li>Mac</li>
+        <li>IPad</li>
+        <li>IPhone</li>
+        <li>Watch</li>
+        <li>AirPods</li>
+        <li>TV e Casa</li>
+        <li>Entretenimento</li>
+        <li>Acessórios</li>
+        <li>Suporte</li>
+        <li>
+          <img src="./img/svg/search-icon.svg" alt="Search Icon" />
+        </li>
+        <li>
+          <img src="./img/svg/bag-icon.svg" alt="Bag Icon" />
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section id="produto">
+        <div id="opcoes-produto">
+          <h1 id="titulo-produto">
+            Pulseira loop esportiva azul-inverno para caixa de 45 mm
+          </h1>
+          <div class="precos">
+            <p id="preco">R$ 499,90</p>
+            <span id="parcelas" class="link">
+              <p>ⓘ</p>
+              <p>Em até 12x de R$ 41,58</p>
+            </span>
+            <p id="a-vista">R$ 449,10 à vista (10% de desconto)</p>
+          </div>
+          <div id="opcoes">
+            <h2 id="nome-cor-selecionada">Cor: Azul-inverno</h2>
+            <ul id="selecao-cores">
+              <li>
+                <input
+                  type="radio"
+                  name="opcao-cor"
+                  id="0-cor"
+                  onclick="alterarCor()"
+                />
+                <label for="0-cor">
+                  <img
+                    src="./img/apple-watch-color-options/verde-cipreste/3.jpeg"
+                    alt=""
+                    srcset=""
+                  />
+                </label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="opcao-cor"
+                  id="1-cor"
+                  onclick="alterarCor()"
+                  checked
+                />
+                <label for="1-cor">
+                  <img
+                    src="./img/apple-watch-color-options/azul-inverno/3.jpeg"
+                    alt=""
+                    srcset=""
+                  />
+                </label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="opcao-cor"
+                  id="2-cor"
+                  onclick="alterarCor()"
+                />
+                <label for="2-cor">
+                  <img
+                    src="./img/apple-watch-color-options/meia-noite/3.jpeg"
+                    alt=""
+                    srcset=""
+                  />
+                </label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="opcao-cor"
+                  id="3-cor"
+                  onclick="alterarCor()"
+                />
+                <label for="3-cor">
+                  <img
+                    src="./img/apple-watch-color-options/estelar/3.jpeg"
+                    alt=""
+                    srcset=""
+                  />
+                </label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="opcao-cor"
+                  id="4-cor"
+                  onclick="alterarCor()"
+                />
+                <label for="4-cor">
+                  <img
+                    src="./img/apple-watch-color-options/rosa-claro/3.jpeg"
+                    alt=""
+                    srcset=""
+                  />
+                </label>
+              </li>
+            </ul>
+            <div id="selo-carbono">
+              <img src="./img/neutralidade-c.jpeg" alt="" />
+              <p>Carbon Neutral</p>
+            </div>
+            <div id="tamanho-caixa">
+              <h2>Tamanho da caixa</h2>
+              <div id="opcoes-tamanho">
+                <input
+                  type="radio"
+                  name="opcao-tamanho"
+                  id="0-tamanho"
+                  onclick="alterarTamanho()"
+                />
+                <label for="0-tamanho">41 mm</label>
+                <input
+                  type="radio"
+                  name="opcao-tamanho"
+                  id="1-tamanho"
+                  onclick="alterarTamanho()"
+                  checked
+                />
+                <label for="1-tamanho">45 mm</label>
+              </div>
+              <div id="disclaimer">
+                <p>Compatível com a maioria das versões de Apple Watch.</p>
+                <p id="saiba-mais" class="link">
+                  Saiba mais sobre a compatibilidade de pulseiras
+                  <b>&#8250;</b>
+                </p>
+              </div>
+              <div id="info-extra">
+                <h2>Tamanho da pulseira</h2>
+                <p id="info-principal">
+                  Tamanho único (cabe na maioria dos pulsos)
+                </p>
+                <p id="info-secundaria">Para pulsos de 145 a 220 mm.</p>
+              </div>
+            </div>
+            <div id="entrega">
+              <div id="icone">
+                <img src="./img/svg/truck-icon.svg" alt="Truck Icon" />
+              </div>
+              <div id="informacoes-entrega">
+                <span>Entrega:</span>
+                <p id="disponibilidade">Em estoque</p>
+                <p id="valor-frete">Frete Grátis</p>
+                <p id="tempo-entrega" class="link">Ver datas de entrega</p>
+              </div>
+            </div>
+            <div id="comprar">
+              <button id="adicionar-a-sacola">Colocar na sacola</button>
+              <div id="comprar-depois">
+                <span>Precisa de um tempo?</span>
+                <p>
+                  Mantenha todas as suas seleções salvando este aparelho em
+                  Itens salvos. Depois, você pode voltar quando quiser e
+                  continuar de onde parou.
+                </p>
+                <p class="link" id="salvar-depois">
+                  <img src="./img/svg/save-icon.svg" alt="Save Icon" />
+                  Salvar para depois
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="visualizacao">
+          <img
+            src="./img/apple-watch-color-options/azul-inverno/1.jpeg"
+            alt=""
+            id="imagem-visualizacao"
+          />
+          <ul id="selecionar-imagem">
+            <li>
+              <input
+                type="radio"
+                name="opcao-imagem"
+                id="0-imagem"
+                onclick="alterarImagem()"
+              />
+              <label for="0-imagem">
+                <img
+                  src="./img/apple-watch-color-options/azul-inverno/0.jpeg"
+                  alt=""
+                  srcset=""
+                  id="0-imagem-miniatura"
+                />
+              </label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="opcao-imagem"
+                id="1-imagem"
+                onclick="alterarImagem()"
+                checked
+              />
+              <label for="1-imagem">
+                <img
+                  src="./img/apple-watch-color-options/azul-inverno/1.jpeg"
+                  alt=""
+                  srcset=""
+                  id="1-imagem-miniatura"
+                />
+              </label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="opcao-imagem"
+                id="2-imagem"
+                onclick="alterarImagem()"
+              />
+              <label for="2-imagem">
+                <img
+                  src="./img/apple-watch-color-options/azul-inverno/2.jpeg"
+                  alt=""
+                  srcset=""
+                  id="2-imagem-miniatura"
+                />
+              </label>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="carbon-neutral"></section>
+      <section id="informacoes"></section>
+      <section id="compatibilidade"></section>
+      <section id="outros"></section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
