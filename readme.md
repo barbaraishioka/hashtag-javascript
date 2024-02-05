@@ -42,6 +42,15 @@
           /></a>
         </td>
       </tr>
+      <tr>
+        <td>04</td>
+        <td><a href="./chat-page/">Chat Page</a></td>
+        <td align="center">
+          <a href=""
+            ><img width="400px" src="./chat-page/public/assets/preview.png"
+          /></a>
+        </td>
+      </tr>      
     </tbody>
 
   </table>
