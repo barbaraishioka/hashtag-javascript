@@ -37,7 +37,7 @@
         <td>03</td>
         <td><a href="./cardapio-digital/">Cardápio Digital</a></td>
         <td align="center">
-          <a href="https://barbaraishioka.github.io/hashtag-javascript/cardapio-digital"
+          <a href="https://hashtag-javascript.vercel.app/"
             ><img width="400px" src="./cardapio-digital/src/assets/preview.png"
           /></a>
         </td>
