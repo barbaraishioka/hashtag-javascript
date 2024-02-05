@@ -46,7 +46,7 @@
         <td>04</td>
         <td><a href="./chat-page/">Chat Page</a></td>
         <td align="center">
-          <a href=""
+          <a href="https://hashtag-javascript-chatpage.vercel.app/"
             ><img width="400px" src="./chat-page/public/assets/preview.png"
           /></a>
         </td>

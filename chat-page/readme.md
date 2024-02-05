@@ -2,7 +2,7 @@
 
 Criado um chat utilizando express e socket.io no Intensivão da [Hashtag Programação](https://www.hashtagtreinamentos.com/).
 
-[Projeto online]()
+[Projeto online](https://hashtag-javascript-chatpage.vercel.app/)
 
 ![Imagem do Projeto](./public/assets/preview.png)
 
