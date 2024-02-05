@@ -20,6 +20,10 @@ git clone https://github.com/barbaraishioka/hashtag-javascript/chat-page
 
 cd hashtag-javascript/chat-page
 
+// Descomentar no index.html caso siga os passo abaixo.
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="./script.js"></script>
+
 npm init -y
 npm install express
 npm install socket.io
