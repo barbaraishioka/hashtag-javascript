@@ -2,7 +2,7 @@
 
 Criado um cardápio digital completo com React.JS no Intensivão da [Hashtag Programação](https://www.hashtagtreinamentos.com/).
 
-[Projeto online](https://barbaraishioka.github.io/hashtag-javascript/cardapio-digital)
+[Projeto online](https://hashtag-javascript.vercel.app/)
 
 ![Imagem do Projeto](./src/assets/preview.png)
 
